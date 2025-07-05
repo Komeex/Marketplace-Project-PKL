@@ -1,96 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="bg-[#1E3A8A] h-auto lg:h-[124px] w-screen sticky fixed top-0 z-50 px-4 py-4 lg:py-0">
-        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-around h-full ">
-            <div class="flex items-center justify-between mr-2">
-                <div class="flex items-center gap-2">
-                    <div
-                        class="relative xl:w-[211px] md:w-[181px] w-[181px] rounded-lg flex items-center justify-center">
-                        <img src="img/Logo.png" alt="">
-                    </div>
+@extends('components.app')
 
-                    <div class="hidden lg:flex items-center gap-1 relative">
-                        <svg class="w-8 absolute z-10 left-3 top-1/2 transform -translate-y-1/2"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                        </svg>
-                        <input type="text"
-                            class="pl-12 bg-white md-[120px]  xl:w-[358px] h-[42px] rounded-[50px] px-4 py-2 outline-none"
-                            placeholder="pencarian">
-                    </div>
+@section('title','Beranda')
 
+@section('content')
+       <div class="w-full max-w-6xl mx-auto pt-12">
+        <div class="flex flex-col lg:flex-row w-full bg-white shadow-2xl rounded-2xl overflow-hidden min-h-[600px] lg:min-h-[716px]">
+            <div class="w-full lg:w-1/2 flex flex-col justify-between p-8 lg:p-12 text-white relative" style="background-color: #1E3A8A;">      
+                <div class="animate-slide-in">
+                    <h1 class="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6">Vintage Fashion</h1>
+                    <p class="text-base lg:text-lg mb-6 lg:mb-8 leading-relaxed opacity-90">
+                        Marketplace fashion terpercaya dengan koleksi terlengkap untuk gaya hidup modern Anda
+                    </p>
+                    
+                    <div class="space-y-3 lg:space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-green-400 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-sm lg:text-base">Produk berkualitas dari brand terpercaya</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-green-400 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-sm lg:text-base">Harga terjangkau untuk semua kalangan</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-green-400 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-sm lg:text-base">Pengiriman gratis ke seluruh Indonesia</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 rounded-full bg-green-400 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-sm lg:text-base">Jaminan kepuasan 100% atau uang kembali</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8 lg:mt-0">
+                    <button id="switchToLogin" class="border-2 border-white/30 text-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-800 transition-all duration-300 font-medium">
+                        Sudah Punya Akun? Login
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex-1 flex flex-col px-6 lg:px-12 py-6 lg:py-8 bg-white">
+                <div class="mb-6 lg:mb-8">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-800 mb-2">Selamat Datang</h2>
+                    <p class="text-gray-600 text-sm lg:text-base">Bergabunglah dengan ribuan pelanggan yang sudah merasakan pengalaman belanja terbaik</p>
                 </div>
 
-                <a href="#"
-                    class="hover:text-[#F97316] duration-300 lg:hidden flex ease-in-out text-white mt-4 lg:mt-0  grow justify-end mb-4 mr-3	">
-                    <svg class="w-[35px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
-                </a>
-                {{-- Button mobile --}}
-                <button id="menu-toggle" class="lg:hidden text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-
-            </div>
-
-            <div class="lg:hidden  relative">
-                <svg class="w-6 absolute z-10 left-3 top-1/2 transform -translate-y-1/2"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                </svg>
-                <input type="text" class="pl-10 bg-white w-full h-[42px] rounded-[50px] px-4 py-2 outline-none"
-                    placeholder="pencarian">
-            </div>
-
-            <div id="nav-menu"
-                class="hidden lg:flex lg:pt-0 pt-4 lg:gap-2 xl:gap-4 text-white items-center mt-4 lg:mt-0">
-                <ul class="flex flex-col lg:flex-row md:gap-1 gap-1 lg:gap-2 xl:gap-4 text-[16px] font-lexend">
-                    <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="#">Home</a></li>
-                    <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="#">About</a></li>
-                    <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="#">Product</a></li>
-                    <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="#">Contact</a></li>
-                </ul>
-
-                <a href="#"
-                    class="hover:text-[#F97316] duration-300 lg:flex hidden ease-in-out text-white mt-4 lg:mt-0">
-                    <svg class="w-[35px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
-                </a>
-                <div class="flex flex-col lg:flex-row gap-2 xl:gap-4 mt-6 lg:mt-0">
-                    <a href="/login">
-                        <button
-                            class="w-full lg:w-[97px] h-[29px] bg-[#af5d23] hover:bg-[#F97316] duration-300 ease-in-out rounded-[50px] font-deto font-bold">login</button>
-                    </a>
+                <div class="flex mb-6 lg:mb-8 border-b border-gray-200">
+                    <button id="masukBtn" class="px-4 py-3 text-blue-600 font-medium border-b-2 border-blue-600 text-sm lg:text-base">
+                        Masuk
+                    </button> 
                     <a href="/register">
-                        <button
-                            class="w-full lg:w-[97px] h-[29px] bg-[#F97316] hover:bg-[#c77134] duration-300 ease-in-out rounded-[50px] font-deto font-bold">register</button>
+                    <button id="daftarBtn" class="px-4 py-3 text-gray-600 hover:text-blue-600 transition-colors border-b-2 border-transparent text-sm lg:text-base">
+                        Daftar
+                    </button>
                     </a>
-
                 </div>
+
+
+                <form id="loginForm" class="flex-1 space-y-6 animate-fade-in">
+                    <div>
+                        <label for="loginEmail" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        <input 
+                            type="email" 
+                            id="loginEmail" 
+                            name="loginEmail"
+                            class="w-full px-3 py-2 lg:py-3 bg-gray-50 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                            placeholder="email@example.com"
+                            required
+                        >
+                    </div>
+
+                    <div>
+                        <label for="loginPassword" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                        <input 
+                            type="password" 
+                            id="loginPassword" 
+                            name="loginPassword"
+                            class="w-full px-3 py-2 lg:py-3 bg-gray-50 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                            placeholder="Masukkan password"
+                            required
+                        >
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <input 
+                                type="checkbox" 
+                                id="remember" 
+                                name="remember"
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                            >
+                            <label for="remember" class="ml-2 text-sm text-gray-600">Ingat saya</label>
+                        </div>
+                        <a href="#" class="text-sm text-blue-600 hover:text-blue-800 underline">Lupa password?</a>
+                    </div>
+
+                    <div class="pt-4">
+                        <button 
+                            type="submit"
+                            class="w-full bg-blue-800 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all transform hover:scale-105"
+                        >
+                            Masuk
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
-    </nav>
-
-    ini login
-</body>
-</html>
+    </div>
+@endsection
