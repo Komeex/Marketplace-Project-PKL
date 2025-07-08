@@ -17,6 +17,7 @@ export default {
         },
       },
       screens: {
+         'ssm': '467px',
         hero: "600px",
       },
       fontFamily: {

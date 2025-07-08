@@ -5,7 +5,7 @@
 @section('content')
        <div class="w-full max-w-6xl mx-auto pt-12">
         <div class="flex flex-col lg:flex-row w-full bg-white shadow-2xl rounded-2xl overflow-hidden min-h-[600px] lg:min-h-[716px]">
-            <div class="w-full lg:w-1/2 flex flex-col justify-between p-8 lg:p-12 text-white relative" style="background-color: #1E3A8A;">      
+            <div class="w-full lg:w-1/2 flex flex-col justify-center p-8 lg:p-12 text-white relative" style="background-color: #1E3A8A;">      
                 <div class="animate-slide-in">
                     <h1 class="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6">Vintage Fashion</h1>
                     <p class="text-base lg:text-lg mb-6 lg:mb-8 leading-relaxed opacity-90">
@@ -46,12 +46,6 @@
                             <span class="text-sm lg:text-base">Jaminan kepuasan 100% atau uang kembali</span>
                         </div>
                     </div>
-                </div>
-                
-                <div class="text-center mt-8 lg:mt-0">
-                    <button id="switchToLogin" class="border-2 border-white/30 text-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-800 transition-all duration-300 font-medium">
-                        Sudah Punya Akun? Login
-                    </button>
                 </div>
             </div>
 

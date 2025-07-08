@@ -82,7 +82,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -302,7 +302,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -357,7 +357,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -410,7 +410,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -465,7 +465,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -520,7 +520,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -575,7 +575,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>
@@ -630,7 +630,7 @@
                         </div>
                         <button
                             class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                            Tambah ke Keranjang
+                           Lihat Detail Produk
                         </button>
                     </div>
                 </div>

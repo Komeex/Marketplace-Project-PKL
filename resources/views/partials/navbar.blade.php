@@ -1,5 +1,4 @@
-<div cl>
-<div class="md:flex   md:justify-between bg-[#1E3A8A]/95 text-gray-100  px-4 hidden ">
+<div class="lg:flex   lg:justify-between bg-[#1E3A8A]/95 text-gray-100  px-4 hidden ">
         <div class="flex gap-4 items-center">
             <div class="flex gap-1">
                 <svg class="w-4 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -60,7 +59,7 @@
             </div>
         </div>
     </div>
-    <nav class="bg-[#1E3A8A]/85 backdrop-blur-sm h-auto lg:h-[90px] w-screen sticky fixed top-0 z-50 px-4 py-4 lg:py-0">
+    <nav class="bg-[#1E3A8A]/85 backdrop-blur-md h-auto lg:h-[90px] w-screen sticky fixed top-0 z-50 px-4 py-4 lg:py-0">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-around h-full ">
             <div class="flex items-center justify-between mr-2">
                 <div class="flex items-center gap-2">
@@ -143,4 +142,3 @@
             </div>
         </div>
     </nav>
-    </div>

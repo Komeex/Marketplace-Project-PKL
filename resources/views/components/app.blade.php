@@ -20,6 +20,16 @@
         @yield('content')
     @include('partials.footer')
 
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('hidden');
+        });
+
+
+    </script>
 </body>
 
 </html>
