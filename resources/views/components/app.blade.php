@@ -12,6 +12,63 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     @vite('resources/css/app.css')
+    <style>
+    .btn {
+    margin-top: 60px;
+    width: 250px;
+    height: 71px;
+}
+
+.btn-produk {
+    width: fit-content;
+    padding: 16px 24px;
+    border-radius: 32px;
+    border: 1px solid #F97316;
+    color: #F97316;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-produk p{
+    transition: 0.3s ease;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+.btn-produk:hover{
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.btn-produk:hover p{
+    transition: 0.3s ease;
+    transform: translateX(-15px);
+}
+
+.btn-produk:hover .dot{
+    width: 250px;
+    height: 250px;
+    transform: scale(1.5) translateY(-20%) translateX(10%);
+    left: 0%;
+    transition: 0.5s ease;
+    background-color: #F97316;
+}
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #F97316;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    transition: 0.5s ease;
+}
+
+    </style>
 </head>
 
 <body class="overflow-x-hidden bg-[#f5f5f5] scroll-smooth">

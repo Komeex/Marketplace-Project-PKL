@@ -31,7 +31,7 @@
 
 
     <section>
-        <div class="flex justify-center">
+        <div class="flex justify-center px-[38px] md:px-[68px]">
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full max-w-screen-xl">
                 <div data-category="jaket"
@@ -72,12 +72,13 @@
                         <img src="img/produk/jaket/jaket-hooligans.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                <a href="/detail">                    
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             Hooligans Jacket Tracktop Linea Lyte </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 165.900</span>
+                                <span class="text-xl font-bold text-gray-900">Rp 203.800</span>
                             </div>
                         </div>
                         <button
@@ -85,6 +86,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                </a>
                 </div>
 
 
@@ -127,6 +129,7 @@
                         <img src="img/produk/Celana/celana-vcrl.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                <a href="/detail1">                    
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             Celana Jeans Panjang Pria Korean Stlye Straight Loose Pants Pria
@@ -141,6 +144,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                </a>
                 </div>
 
                 <div data-category="sepatu"
@@ -182,12 +186,13 @@
                         <img src="img/produk/Spatu/saba-spatu.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail2">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                            SABA Veloz Grey White - Sepatu Sneakers Casual Pria Wanita</h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 122.500</span>
+                                <span class="text-xl font-bold text-gray-900">Rp122.500</span>
                             </div>
                         </div>
                         <button
@@ -195,6 +200,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="baju"
@@ -236,13 +242,14 @@
                         <img src="img/produk/baju1.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail3">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             Wenz Kaos distro pria Falling Mentally Oversize
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 89.000</span>
+                                <span class="text-xl font-bold text-gray-900">Rp89.000</span>
                             </div>
                         </div>
                         <button
@@ -250,6 +257,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="topi"
@@ -291,6 +299,7 @@
                         <img src="img/produk/topi/topi-nextstopid.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail4">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             Topi Baseball Cap Pria Wanita Model Wash Denim Luntur
@@ -305,6 +314,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="baju"
@@ -346,13 +356,14 @@
                         <img src="img/produk/baju/baju-renelle.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail5">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             RENELLE Baju Oversize Pria Distro Keren Kece | Kaos Katun Combed 
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 49.500</span>
+                                <span class="text-xl font-bold text-gray-900">Rp49.500</span>
                             </div>
                         </div>
                         <button
@@ -360,6 +371,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="sepatu"
@@ -401,11 +413,12 @@
                         <img src="img/produk/Spatu/aero-spatu.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail6">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">Aerostreet Hoops Low 2.0 Putih Putih Abu Tua                        </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 172.900</span>
+                                <span class="text-xl font-bold text-gray-900">Rp172.900</span>
                             </div>
                         </div>
                         <button
@@ -413,6 +426,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="jaket"
@@ -454,13 +468,14 @@
                         <img src="img/produk/jaket/jaket-aero.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail7">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                             Aerostreet Hoodie Good Energy Cream Sweater Jumper
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 152.900</span>
+                                <span class="text-xl font-bold text-gray-900">Rp152.900</span>
                             </div>
                         </div>
                         <button
@@ -468,6 +483,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="celana"
@@ -509,13 +525,14 @@
                         <img src="img/produk/Celana/celana-symple.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail8">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                            Celana Cargo Panjang Pria Many Pockets
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 136.500</span>
+                                <span class="text-xl font-bold text-gray-900">Rp136.500</span>
                             </div>
                         </div>
                         <button
@@ -523,6 +540,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="baju"
@@ -564,13 +582,14 @@
                         <img src="img/produk/baju/baju-fortklass.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail9">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                            FortKlass Kaos Oversize SPORTY 89 T-Shirt Cowok
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 73.000</span>
+                                <span class="text-xl font-bold text-gray-900">Rp73.000</span>
                             </div>
                         </div>
                         <button
@@ -578,6 +597,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
 
                 <div data-category="topi"
@@ -619,13 +639,14 @@
                         <img src="img/produk/topi/topi-kece.png" alt="Wenz Kaos distro" id="imgHover"
                             class="w-full h-full object-cover " />
                     </div>
+                    <a href="/detail">  
                     <div class="p-4">
                         <h2 class="text-lg font-semibold text-gray-800 mb-3 leading-tight w-[204px] h-[67.5px]">
                            Topi Baseball Cap Pria Wanita Model Wash Denim Luntur
                         </h2>
                         <div class="mt-4 flex items-center justify-between">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xl font-bold text-gray-900">Rp 52.300</span>
+                                <span class="text-xl font-bold text-gray-900">Rp52.300</span>
                             </div>
                         </div>
                         <button
@@ -633,6 +654,7 @@
                            Lihat Detail Produk
                         </button>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
