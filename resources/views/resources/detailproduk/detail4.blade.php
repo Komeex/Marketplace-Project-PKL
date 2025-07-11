@@ -1,6 +1,6 @@
 @extends('components.app')
 
-@section('title', 'Beranda')
+@section('title', 'detail')
 
 @section('content')
 

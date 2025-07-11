@@ -1,6 +1,6 @@
 @extends('components.app')
 
-@section('title', 'Beranda')
+@section('title', 'Profile')
 
 @section('content')
     <div class="font-lato flex flex-col md:flex-row h-auto bg-gray-100 overflow-x-hidden lg:mt-12 ">

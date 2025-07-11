@@ -1,7 +1,6 @@
 <footer class="bg-[#1E3A8A] py-12 mt-24">
         <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-4  md:gap-12 text-gray-100">
-                <!-- Social Media -->
                 <div class="flex flex-col gap-6">
                     <div class="flex flex-col text-left p-4 gap-4">
                         <img class="w-[11.5rem] md:mb-0 md-4" src="img/Logo.png" alt="Logo">
@@ -25,8 +24,7 @@
                     </div>
                 </div>
 
-                <!-- Address & Contact -->                <div id="contact"
-                    class="text-white flex flex-col md:items-start text-left md:ml-12 p-4">
+                <div id="contact" class="text-white flex flex-col md:items-start text-left md:ml-12 p-4">
                     <h3 class="text-xl font-bold mb-6 ">Discover</h3>
                     <ul class="space-y-3">
                         <li><a
@@ -48,7 +46,6 @@
                     </ul>
                 </div>
 
-                <!-- Explore -->
                 <div class="text-white flex flex-col md:items-start md:ml-12 p-4">
                     <h3 class="text-xl font-bold mb-6">Navigation</h3>
                     <ul class="space-y-3">

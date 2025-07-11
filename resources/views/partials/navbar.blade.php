@@ -1,4 +1,4 @@
-<div class="lg:flex   lg:justify-between bg-[#1E3A8A]/95 text-gray-100  px-4 hidden ">
+<div class="lg:flex lg:justify-between bg-[#1E3A8A]/95 text-gray-100  px-4 hidden ">
     <div class="flex gap-4 items-center">
         <div class="flex gap-1">
             <svg class="w-4 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -58,7 +58,7 @@
         </div>
     </div>
 </div>
-<nav class="bg-[#1E3A8A]/85 backdrop-blur-md h-auto lg:h-[90px] w-screen sticky fixed top-0 z-50 px-4 py-4 lg:py-0">
+<nav class="bg-[#1E3A8A]/85 backdrop-blur-md h-auto lg:h-[90px] w-screen sticky  top-0 z-50 px-4 py-4 lg:py-0">
     <div class="flex flex-col lg:flex-row lg:items-center lg:justify-around h-full ">
         <div class="flex items-center justify-between mr-2">
             <div class="flex items-center gap-2">
@@ -81,13 +81,18 @@
             </div>
 
             <a href="#"
-                class="hover:text-[#F97316] duration-300 lg:hidden flex ease-in-out text-white mt-4 lg:mt-0  grow justify-end mb-4 mr-3	">
+                class="relative hover:text-[#F97316] duration-300 lg:hidden flex ease-in-out text-white mt-4 lg:mt-0  grow justify-end mb-4 mr-3	">
                 <svg class="w-[35px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                 </svg>
+                <div
+                    class="w-6 h-4 rounded-full bg-red-600 absolute -right-3 -top-1 items-center flex justify-center font-lato font-semibold text-[12px]">
+                    37</div>
             </a>
+            
+                 
             {{-- Button mobile --}}
             <button id="menu-toggle" class="lg:hidden text-white">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -115,10 +120,10 @@
                 <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="/#">Home</a></li>
                 <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="/#carousel">Populer</a></li>
                 <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="/produk">Produk</a></li>
-                <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="#">Kontak</a></li>
+                <li class="hover:text-[#F97316] duration-300 ease-in-out"><a href="/#contact">Kontak</a></li>
             </ul>
 
-            <div class="relative">
+            <div class="relative hidden lg:flex">
                 <a href="#"
                     class="hover:text-[#F97316] duration-300 lg:flex hidden ease-in-out text-white mt-4 lg:mt-0 ">
                     <svg class="w-[35px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -140,7 +145,7 @@
                         login
                     </button>
                 </a>
-                <a href="/profile">
+                <a class="hidden lg:flex" href="/profile">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor"
                         class="size-14 hover:border-[#F97316] duration-300 ease-in-out rounded-[50px] font-deto font-bold text-white hover:text-[#F97316]">

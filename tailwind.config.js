@@ -7,15 +7,7 @@ export default {
   ],
   theme: {
     extend: {
-     animation: {
-        "marquee": "loop-scroll 30s linear infinite",
-      },
-      keyframes: {
-        "marquee": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-50%)" }, // cuma geser separuh
-        },
-      },
+      
       screens: {
          'ssm': '467px',
         hero: "600px",
